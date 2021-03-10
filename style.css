@@ -1,0 +1,107 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: whitesmoke !important;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.navbar{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    
+}
+
+.img{
+    background-image:url("image/couv2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 100%;
+   min-height: 600px;
+}
+.ligne_verticale
+{position: absolute;
+    top: 30%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+    width:2px;
+    border-left:10px solid red;
+    height:200px;
+}
+.icons{
+    position: absolute;
+    top: 60%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+.verticale{
+    position: absolute;
+    top: 85%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+    width:2px;
+    border-left:10px solid red;
+    height:140px;
+
+}
+.titre{
+    position: absolute;
+    top: 45%;
+  left:40%;
+  transform: translate(-50%, -50%);
+  font-family: 'Recursive', sans-serif;
+  font-size: 50px;
+  border: solid;
+  background-color: rgba(44, 62, 80,0.2);
+  text-align: center;
+  color: blanchedalmond;
+}
+.temoing{
+    
+    background-image: url(image/tem1.jpeg);
+    background-attachment: fixed;
+    padding: 60px;
+    background-repeat:no-repeat ;
+    width: 100%;
+}
+
+footer{
+    background-color:red;
+}
+.copyrght{
+  text-align: center;
+  
+}
+#titleborder {
+  width: 14rem;
+  background-color: #1abc9c;
+  height: 5px;
+}
+.cat1{
+  padding: 30px;
+  border: solid;
+  border-radius: 10px 100px / 120px;
+  background-color: rgba(0, 206, 201,0.2);
+}
+.cons{
+  width: 400px;
+  height: 350px;
+  box-shadow: 12px 12px 2px 1px rgba(178, 190, 195,0.4);
+  border-radius: 50px;
+}
+.propos{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./image/couv.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 25rem;
+
+}
+.t1t{
+text-align: center;
+font-size: 15px;
+color: whitesmoke;
+font-weight: bold;
+padding: 200px;
+}
